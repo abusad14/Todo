@@ -42,7 +42,7 @@ let timeTop = document.getElementById("timeTop");
 let date = new Date();
 
 let newDate = document.createElement("div");
-newDate.innerHTML = `📅 ${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`;
+newDate.innerHTML = `📅 ${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`;
 dateTop.appendChild(newDate);
 
 let newTime = document.createElement("div");
